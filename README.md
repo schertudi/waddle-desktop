@@ -56,6 +56,7 @@ Numix Circle icon theme (optional but looks good with theme):
 
 ### Setup files
 **NOTE: pre-existing Dockx settings and rofi config WILL BE DELETED**. Please back them up before doing this.
+
 Run this inside the WaddleOS folder.
 ```
 mkdir ~/.config/rofi
@@ -103,19 +104,19 @@ sudo ln -s /usr/local/lib/xfce4/panel/plugins/libsample.so /usr/lib/xfce4/panel-
 
 ### Activate WaddleOS
 Toolbar panel:
-Go to Panel Preferences > Backup and restore > Import 
-Select ClubPenguin-xfce-panel-config.tar.bz2 and save configuration
-Apply this configuration
+- Go to Panel Preferences > Backup and restore > Import 
+- Select ClubPenguin-xfce-panel-config.tar.bz2 and save configuration
+- Apply this configuration
 
 Set gtk theme:
-Launch Appearance
-Select oomox-ClubPenguin as gtk style
-In the fonts section, change default font to A.C.M.E. Explosive or Burbank
-If you want to use the Numix theme, go to Icons and select Numix Circle
+- Launch Appearance
+- Select oomox-ClubPenguin as gtk style
+- In the fonts section, change default font to A.C.M.E. Explosive or Burbank
+- If you want to use the Numix theme, go to Icons and select Numix Circle
 
 Window theme:
-Launch Window Manager, and set xfwm theme to ClubPenguin-xfwm
-Set title font to A.C.M.E. Explosive
+- Launch Window Manager, and set xfwm theme to ClubPenguin-xfwm
+- Set title font to A.C.M.E. Explosive
 
 To enable the auto-background cronjob, run this in a terminal:
 ```
@@ -134,7 +135,9 @@ cd ~/.local/share/waddleos/
 
 ## Credits
 Custom toolbar widget based off XFCE sample plugin: https://github.com/xfce-mirror/xfce4-sample-plugin
+
 GTK theme created with Oomox
+
 Background images sourced from https://clubpenguin.fandom.com/wiki/Club_Penguin_Wiki
 
 
