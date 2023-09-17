@@ -1,0 +1,91 @@
+* {
+    element-bg: #fff;
+    element-text: #080808;
+    element-border: #9a9a9b;
+
+    element-select-bg: #cccccc;
+    element-select-text: #080808;
+    element-select-border: #666666;
+
+    input-text: #e6dfd1;
+}
+
+configuration {
+	modi: "drun";
+  hover-select: true;
+  me-select-entry: "";
+  me-accept-entry: [ MousePrimary, MouseSecondary, MouseDPrimary ];
+}
+
+window {
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    children: [ mainbox ];
+    y-offset: -8;
+}
+
+mainbox {
+    orientation: vertical;
+    children: [listview, inputbar  ];
+    spacing: 35px;
+}
+
+listview {
+	reverse: true;
+    layout: vertical;
+    fixed-height: false;
+    background-color: transparent;
+    columns: 1;
+    lines: 5;
+    spacing: 5px;
+    cycle: false;
+    scrollbar: false;
+    border: 0px solid;
+    border-radius: 0px;
+    
+}
+
+element {
+    orientation: horizontal;
+    children: [element-text];
+    spacing: 5px;
+    width: 120px;
+    padding: 10px;
+    border-color: @element-border;
+    border-radius: 7px;
+    border: 3px;
+}
+
+#element normal normal {
+   background-color: @element-bg;
+   text-color: @element-text;
+   font: "Burbank Small Normal 10";
+}
+
+element selected normal {
+    background-color: @element-select-bg;
+    text-color: @element-select-text;
+    border-color: @element-select-border;
+}
+
+element alternate normal {
+    background-color: @element-bg;
+    text-color: @element-text;
+}
+
+element-text {
+    font: "Burbank Small Normal 14";
+}
+
+inputbar {
+    children: [ entry];
+    width: 150px;
+    padding: 0 20px;
+}
+
+entry {
+    placeholder: "";
+    text-color: @input-text;
+    font: "Burbank Small Normal 16";
+}

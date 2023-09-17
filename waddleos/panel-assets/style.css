@@ -1,0 +1,83 @@
+* {
+background-color:#0280cd;
+margin: 0;
+padding: 0;
+width: 100%;
+border: none;
+inner-border: none;
+pixel-size: 10px;
+}
+
+.ClubPenguinTooltip{
+    font-family: 'Burbank';
+    font-size: 12pt;
+    background-color: #feef7e;
+    border:2px solid #8e7318;
+    padding: 3px 16px;
+}
+
+.LauncherButton {
+    padding: 0;
+    margin: 0;
+    border: none;
+    inner-border: none;
+    min-width:50px;
+    min-height:50px;
+}
+
+.LauncherButton {
+    border: none;
+    box-shadow: none;
+}
+
+.Launcher1 {
+    background-image: url("icon-penguin.png");
+    min-width:48px;
+}
+
+.Launcher1:hover {
+    background-image: url("icon-penguin-hover.png");
+}
+
+.Launcher1:active {
+    background-image: url("icon-penguin-click.png");
+}
+
+
+.Launcher2 {
+    background-image: url("icon-friends.png");
+}
+
+.Launcher2:hover {
+    background-image: url("icon-friends-hover.png");
+}
+
+.Launcher2:active {
+    background-image: url("icon-friends-click.png");
+}
+
+.Launcher3 {
+    background-image: url("icon-home.png");
+}
+
+.Launcher3:hover {
+    background-image: url("icon-home-hover.png");
+}
+
+.Launcher3:active {
+    background-image: url("icon-home-click.png");
+}
+
+.Launcher4 {
+    background-color: rgba (0, 0, 0, 0);
+    background-image: url("icon-help.png");
+}
+
+.Launcher4:hover {
+    background-image: url("icon-help-hover.png");
+}
+
+.Launcher4:active {
+    background-image: url("icon-help-click.png");
+}
+
