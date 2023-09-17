@@ -1,0 +1,10 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Encoding=UTF-8
+_Name=Club Penguin Toolbar
+_Comment=Provides penguin-themed rofi button and customizable launchers
+Icon=xfce4-sample-plugin
+X-XFCE-Module=sample
+X-XFCE-Internal=false
+X-XFCE-Unique=false
+X-XFCE-API=2.0
