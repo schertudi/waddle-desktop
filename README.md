@@ -55,9 +55,16 @@ Numix Circle icon theme (optional but looks good with theme):
 
 
 ### Setup files
+Clone and enter this repository:
+```
+git clone https://github.com/schertudi/waddle-desktop.git
+cd waddle-desktop
+```
+
+Install configs to your PC:
+
 **NOTE: pre-existing Dockx settings and rofi config WILL BE DELETED**. Please back them up before doing this.
 
-Run this inside the WaddleOS folder.
 ```
 mkdir ~/.config/rofi
 cp config.rasi ~/.config/rofi/
